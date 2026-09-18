@@ -1,0 +1,15 @@
+{
+  "canonicalConceptCount": 1710,
+  "canonicalizedEntries": 2234,
+  "catalogSHA256": "4c7959a8446e7ea16bb7ca63dd8f1fe7c5de81cc31a5c6d151aa1c11a4ef7596",
+  "catalogVersion": "unicode17-cldr48-canonical1-features1",
+  "cldrVersion": "48",
+  "excludedStructuralConcepts": 462,
+  "rawRGICount": 3944,
+  "sourceSHA256": {
+    "cldr-48-en.xml": "8511aadd046fdba2f0ffe590266ced8bbf48175ad139b2675d85d7141057b235",
+    "emoji-test-17.0.txt": "1d8a944f88d7952f7ef7c5167fef3c67995bcae24543949710231b03a201acda"
+  },
+  "strictConceptCount": 1248,
+  "unicodeVersion": "17.0"
+}
