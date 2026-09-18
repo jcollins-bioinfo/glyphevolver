@@ -1,0 +1,64 @@
+{
+  "acceptanceRate": 0.24454,
+  "accepted": 24454,
+  "catalogVersion": "unicode17-cldr48-canonical1-features1",
+  "constructiveSelectionMilliseconds": [
+    7.817983627319336,
+    7.3729753494262695,
+    7.678031921386719,
+    7.694005966186523,
+    8.203983306884766,
+    8.028984069824219,
+    7.271051406860352,
+    7.616996765136719,
+    7.6400041580200195,
+    7.578015327453613
+  ],
+  "count": 100000,
+  "duplicateRate": 0.00015,
+  "hostClass": "Apple Silicon Mac; not iPhone",
+  "meanPairSimilarity": 0.021945001132934266,
+  "meanScore": 0.6798276658101645,
+  "proposalDistribution": "Uniform distinct strict-corpus triples; independent of constructive selector",
+  "rejectionReasons": {
+    "competingSubjects": 106,
+    "excessiveComplexity": 31,
+    "noVisualAnchor": 106,
+    "qualityBelowThreshold": 75540,
+    "threeFaces": 86,
+    "threeHumanCharacters": 108
+  },
+  "roleTemplateDistribution": {
+    "characterAccessoryAtmosphere": 22,
+    "subjectFeatureAccessory": 14646,
+    "subjectFeatureSetting": 8147,
+    "subjectMaterialFeature": 1552,
+    "subjectObjectAtmosphere": 87
+  },
+  "scoreHistogram": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    553,
+    74987,
+    24180,
+    280,
+    0
+  ],
+  "scoringSeconds": 0.7963089942932129,
+  "scoringVersion": "heuristic-1",
+  "simulationSeed": 20260918,
+  "unicodeGroupDistribution": {
+    "Activities": 5137,
+    "Animals & Nature": 13756,
+    "Flags": 276,
+    "Food & Drink": 5291,
+    "Objects": 12952,
+    "People & Body": 10542,
+    "Smileys & Emotion": 6071,
+    "Symbols": 2564,
+    "Travel & Places": 16773
+  }
+}

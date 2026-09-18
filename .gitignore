@@ -1,0 +1,11 @@
+.build/
+.swiftpm/
+DerivedData/
+artifacts/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+*.xcarchive
+*.mobileprovision
+*.p12
+__pycache__/
