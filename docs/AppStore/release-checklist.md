@@ -12,6 +12,6 @@
 - [ ] App name/trademark/copyright language reviewed; support and privacy HTTPS URLs live.
 - [ ] Actual screenshots captured; metadata reflects only implemented behavior.
 - [ ] Compatible macOS/Xcode 27 CI runner confirmed and workflow executed.
-- [ ] Authenticated Git publishing restored; intended commits pushed and remote checked.
+- [ ] Implementation PR reviewed and approved after the native integration and release blockers above are resolved.
 
 No license, signing certificate, provisioning profile, developer-account action, App Store upload or publication was created automatically.

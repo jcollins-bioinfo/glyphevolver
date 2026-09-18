@@ -2,13 +2,13 @@
 
 This is an incomplete application milestone. The original brief and intelligent-search addendum are **not fully satisfied**.
 
-## Environment and repository blockers
+## Environment blockers and repository state
 
 - Installed Xcode: 16.3 (16E140); Swift 6.1; iOS/device and simulator SDKs: 18.4. No alternative Xcode installation found.
 - An unsandboxed `xcrun simctl list runtimes` and `list devices available` returned empty lists.
 - Installed Image Playground sheet overloads return `URL`; no `onAdaptiveImageGlyphCreation` or emoji style was found in that SDK. FoundationModels is absent.
 - Online Apple documentation describes the newer adaptive-glyph callback, but the requested installed final iOS 27 interface cannot be inspected here. No signature was guessed into production code.
-- GitHub connector confirmed private `jcollins-bioinfo/glyphevolver`, size zero. HTTPS clone failed for missing credentials; `gh` returned HTTP 401. The workspace was initialized locally with the confirmed origin URL. It is not a successful remote clone and changes have not been published.
+- Repository: `jcollins-bioinfo/glyphevolver`. HTTPS/CLI token authentication failed during initial setup, but existing SSH authentication was subsequently verified. The implementation commits are based on the repository's initial `main` commit; its original short README is replaced by the detailed, implementation-accurate README. Origin uses SSH for publication.
 
 ## Delivered boundaries
 

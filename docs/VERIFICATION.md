@@ -83,6 +83,6 @@ With normal cache/service access, package resolution succeeded but Xcode returne
 
 Product Swift source was searched for TODO, FIXME, fatalError, the prohibited generation API, network URLs/URLSession, UserDefaults, uptime, disk-capacity and timestamp API names. No matches were found. The draft privacy manifest still needs a final compiled binary/runtime audit. `git diff --check` and staged whitespace checks passed.
 
-The local branch is `codex/initial-glyphevolver-app`, with origin set to the confirmed `jcollins-bioinfo/glyphevolver` URL. Command-line authentication was unavailable (Git HTTPS credential failure; gh HTTP 401). Local commits are the deliverable; no push/PR/merge occurred. Run `git log --oneline` for the exact committed sequence.
+The branch is `codex/initial-glyphevolver-app` in `jcollins-bioinfo/glyphevolver`. Initial HTTPS credential and gh-token failures were resolved for publication by verifying the existing SSH authentication and configuring origin to use it. The two implementation commits were rebased onto the repository's initial main commit. The resulting implementation tree is byte-identical to the previously tested local tree; only the subsequent repository-status documentation changed. Run `git log --oneline` for the current commit identifiers. Full iOS verification remains blocked independently of Git publishing.
 
 The request remains incomplete. See `IMPLEMENTATION_STATUS.md` for native integration, UI, device, privacy and App Store work still required.
